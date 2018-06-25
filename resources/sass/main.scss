@@ -1,0 +1,48 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'reset';
+@import 'loader';
+
+body {
+    background: #FFF;
+}
+
+.parser-container {
+    display:table;
+    min-height:calc(100vh - 56px);
+    height:100%;
+    width:100%;
+
+    .parser-content {
+        display:table-cell;
+        vertical-align:middle;
+    }
+}
+
+#loading-container {
+    display:none;
+    text-align:center;
+}
+
+#results-container {
+    display:none;
+    
+    .infos {
+        .infos-list {
+            display:table;
+            width:100%;
+            list-style: none;
+            padding: 0;
+
+            li {
+                display:table-cell;
+                border-right:1px solid #ccc;
+                text-align:center;
+                width:33%;
+
+                &:last-child {
+                    border-right:none;
+                }
+            }
+        }
+    }
+}
