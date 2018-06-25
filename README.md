@@ -39,6 +39,7 @@ Todas as pesquisas são salvas em Cache através do Memcached para que não seja
 - JS
 - Gulp
 - SASS
+- CakePHP 3.6.x
 
 ## Instalação
 
