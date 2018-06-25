@@ -50,6 +50,9 @@ composer install
 cd server/
 npm install
 ```
+** \*\*\* IMPORTANTE \*\*\* **
+É necessário alterar a [linha 42 do arquivo src/Template/Layout/default.ctp](https://github.com/aledefreitas/teste-tripadvisor-parser/tree/master/src/Template/Layout/default.ctp#L42) para alterar o domain ou IP do servidor para conexão do WebSocket no NodeJS.
+A que está atualmente é a do meu DEV local.
 
 ## Rodando o Node e Worker background
 
