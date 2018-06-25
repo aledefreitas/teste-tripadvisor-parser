@@ -71,16 +71,21 @@ Aqui temos todos os códigos do JavaScript executado na página do teste, e o SA
 #### PHP
 
 [src/Controller/HomeController.php](https://github.com/aledefreitas/teste-tripadvisor-parser/blob/master/src/Controller/HomeController.php)
+
 Lógica da Controller do teste.
 
 [src/Shell/Task/UrlParserTask.php](https://github.com/aledefreitas/teste-tripadvisor-parser/blob/master/src/Shell/Task/UrlParserTask.php)
 [src/Shell/TripAdvisorParserShell.php](https://github.com/aledefreitas/teste-tripadvisor-parser/blob/master/src/Shell/TripAdvisorParserShell.php)
+
 Lógica do Worker em background do teste.
 
 [src/Template/](https://github.com/aledefreitas/teste-tripadvisor-parser/blob/master/src/Template/)
 [src/View/](https://github.com/aledefreitas/teste-tripadvisor-parser/blob/master/src/View/)
+
 Lógica da View do teste.
 
 #### Node
 
 [server/](https://github.com/aledefreitas/teste-tripadvisor-parser/tree/master/server)
+
+Lógica do servidor de NodeJS utilizado para transmissão dos dados que foram executados em background.
